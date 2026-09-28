@@ -36,12 +36,12 @@
       padding: 30px;
       border-radius: 8px;
       margin-bottom: 50px;
-      width: 65%;
+      width: 970px;
       margin-left: auto;
       margin-right: auto;
    }
 
-   /*testing margin collapse, applied in HTML*/
+   /*A2: testing margin collapse, applied in HTML*/
      #bottom-margin{
         margin-bottom: 60px;
      }
