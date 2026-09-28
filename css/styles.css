@@ -25,6 +25,10 @@
    }
 
    /* .intro paragraph styled with dark crimson color.*/
+
+   /*A2: background colour, a visible border, comfortable padding, 
+   a border-radius, and a bottom margin separating it 
+   from the next section*/
    .intro{
       color: #490e11;
       background-color: bisque;
@@ -32,7 +36,20 @@
       padding: 30px;
       border-radius: 8px;
       margin-bottom: 50px;
+      width: 65%;
+      margin-left: auto;
+      margin-right: auto;
    }
+
+   /*testing margin collapse, applied in HTML*/
+     #bottom-margin{
+        margin-bottom: 60px;
+     }
+
+     #top-margin{
+        margin-top: 20px;
+     }
+
 
    /* #summit heading styled with left border and padding */
    #summit{
@@ -44,4 +61,10 @@
    /* second rule targeting heading 2 with color teal */
    h2{
       color: #38A3A5;
+   }
+
+   /*A2: code for aspect ratio*/
+   .frame{
+      aspect-ratio: 16 / 9;
+      width: 100%;
    }
